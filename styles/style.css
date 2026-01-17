@@ -18,10 +18,28 @@ body{
 .display-flex{
     display: flex;
 }
+.text-color{
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn{
+    padding: 16px 47px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #E6533C;
+    border: none;
+    border-radius: 42px;
+    color: white;
+
+}
+.color{
+    background-color: rgba(17, 17, 17, 1);
+}
 /* Main styles */
 /* Navbar related styles */
 .navbar{
-    margin-top: 57px;
+    max-width: 1060px;
+    margin: 0 auto;
+    padding-top: 57px;
     align-items: center;
     justify-content: space-between;
 }
@@ -61,6 +79,102 @@ body{
     display: none;
 }
 
+/* banner related styles */
+.banner-container{
+    max-width: 1060px;
+    margin: 0 auto;
+   justify-content: space-between;
+    margin-top: 98px;
+
+}
+.banner-text{
+    width: 50%;
+}
+.banner-title{
+    font-size: 5rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 28px;
+}
+
+.banner-description{
+    max-width: 520px;
+    letter-spacing: 0.5px;
+    margin-bottom: 28px;
+}
+
+.btn-container{
+    gap: 14px;
+}
+
+.btn-1{
+    color: white;
+    padding: 16px 47px;
+    border-radius: 42px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background-color: transparent;
+}
+.banner-image{
+    width: 50%;
+    position: relative;
+    justify-content: end;
+}
+.banner-image img{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.img-btn{
+    width: 150px;
+    color: white;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 12px;
+    right: 5%;
+    top: 30%;
+}
+
+.img-btn h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.img-btn p{
+    font-size: 0.7rem;
+}
+
+.img-btn-1{
+    width: 200px;
+    color: white;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    padding: 20px 20px;
+    border-radius: 12px;
+    left: -15%;
+    top: 70%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ball{
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
 /* Responsive related styles */
 @media screen and (max-width:576px) {
     .nav-lists{
@@ -70,4 +184,70 @@ body{
         display: inline;
 
     }
+    .banner-container{
+        flex-direction: column;
+    }
+
+    .banner-title{
+        font-size: 2.25rem;
+    }
+
+    .btn-container{     
+        gap: 20px;
+    }
+    .banner-text{
+        width: 90%;
+    }
+   .btn{
+    padding: 16px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #E6533C;
+    border: none;
+    border-radius: 42px;
+    color: white;
+    }
+    .btn-1{
+        color: white;
+        border: 1px solid white;
+        border-radius: 42px;
+        padding: 16px 20px;
+    }
+    .btn-container{
+        justify-content: center;
+    }
+    .banner-image{
+        margin: 5px;
+        width: 90%;
+        margin-left: 10%;
+        margin-top: 50px;
+    }
+
+    .img-btn{
+    width: 150px;
+    color: white;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    padding: 10px 20px;
+    border-radius: 12px;
+    right: 10%;
+    top: 8%;
+}
+.img-btn-1{
+    width: 200px;
+    color: white;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    padding: 20px 20px;
+    border-radius: 12px;
+    left: 1%;
+    top: 45%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
 }

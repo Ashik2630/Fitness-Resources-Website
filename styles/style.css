@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* Unabarsaletor */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Shard related styles */
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #000000;
+}
+
+.display-flex{
+    display: flex;
+}
+/* Main styles */
+/* Navbar related styles */
+.navbar{
+    margin-top: 57px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-style: italic;
+    color: #E6533C;
+}
+.nav-lists{
+    gap: 47px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    align-items: center;
+    border-radius: 39px;
+    padding: 11px 4px;
+}
+.nav-list{
+    list-style: none;
+    
+}
+
+.nav-item{
+    font-size: 1.15rem;
+    text-decoration: none;
+    color: white;
+}
+.nav-btn{
+    padding: 8px 20px ;
+    border-radius: 46px;
+    background-color: #E6533C;
+}
+.nav-about{
+    padding: 0px 20px 0px 20px;
+}
+.nav-menu{
+    color: white;
+    display: none;
+}
+
+/* Responsive related styles */
+@media screen and (max-width:576px) {
+    .nav-lists{
+        display: none;   
+    }
+    .nav-menu{
+        display: inline;
+
+    }
+}

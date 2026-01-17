@@ -177,6 +177,9 @@ body{
 
 /* Responsive related styles */
 @media screen and (max-width:576px) {
+    .color{
+        padding: 5%;
+    }
     .nav-lists{
         display: none;   
     }

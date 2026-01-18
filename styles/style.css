@@ -218,7 +218,6 @@ body{
 }
 
 .run-container{
-    /* align-items: center; */
     justify-content: space-between;
 }
 
@@ -444,16 +443,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /* Responsive related styles */
 @media screen and (max-width:576px) {
     .color{
@@ -540,7 +529,17 @@ body{
     gap: 40px;
     
 }
+.run-text{
+    margin: 0;
+    padding: 15px;
+}
+.run-img{ 
+    margin: 0;
+}
 
+.training-text {
+    padding: 10px;
+}
 .training-img-container{
     grid-template-columns: repeat(2, 1fr);
 }

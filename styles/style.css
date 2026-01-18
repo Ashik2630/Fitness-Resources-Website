@@ -169,9 +169,6 @@ body{
     border-radius: 50%;
 }
 
-.waite{
-    margin-bottom: 100px;
-}
 /* changes related styles */
 .changes{
     max-width: 1044px;
@@ -221,7 +218,7 @@ body{
 }
 
 .run-container{
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
 }
 
@@ -237,17 +234,22 @@ body{
 .run-text p{
     margin-bottom: 34px;
 }
-
+.run-img{
+    padding: 20px;
+}
 .run-img img{
-    width: 343px;
+    max-width: 343px;
+    height: 100%;
+    object-fit: cover;
     border-radius: 18px;
-    margin: 30px 32px;
+    /* margin: 30px 32px; */
 }
 
 /* Trainings section styles */
 .trainings{
     max-width: 1060px;
     margin: 130px auto 0;
+    padding: 10px;
 }
 .training-text{
         max-width: 671px;

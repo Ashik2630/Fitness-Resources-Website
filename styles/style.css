@@ -212,6 +212,142 @@ body{
     margin-bottom: 6px;
 }
 
+/* run-section styles */
+.run-section{
+    max-width: 1060px;
+    margin: 0 auto;
+    background-color: #222222;
+    margin-top: 100px;
+}
+
+.run-container{
+    align-items: center;
+    justify-content: space-between;
+}
+
+.run-text{
+    max-width: 443px;
+    margin: 40px 54px;
+}
+.run-title{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.run-text p{
+    margin-bottom: 34px;
+}
+
+.run-img img{
+    width: 343px;
+    border-radius: 18px;
+    margin: 30px 32px;
+}
+
+/* Trainings section styles */
+
+
+
+
+
+
+
+
+/*  Team section styles*/
+.team{
+    max-width: 1060px;
+    margin: 78px auto;
+}
+.team-text{
+    max-width: 671px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-img-container{
+    margin-top: 58px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr );
+    gap: 20px;
+    position: relative;
+}
+.team-img{
+    position: relative;
+}
+.text{
+    position: absolute;
+    top: 75%;
+    left: 3%;
+}
+
+.team-img-container img{
+    width: 330px;
+    height: 270px;
+    border-radius: 18px;
+}
+
+/* Footer related styles */
+
+.main-footer{
+    max-width: 1440px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-container{
+    max-width: 1060px;
+    margin: 66px auto;
+    justify-items: center;
+}
+
+.footer-text{
+    max-width: 444px;
+}
+
+.foot-title{
+    font-size: 4.5rem;
+    font-weight: 800;
+    font-style: italic;
+    color: #E6533C;
+    margin-bottom: 20px;
+}
+
+
+.footer-list{
+    max-width: 181px;
+    margin-left: 110px;
+}
+
+.list{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.list .item{
+    text-decoration: none;
+    
+    
+}
+
+.foot-list-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.foot-hr{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.right{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
 
 
 
@@ -234,7 +370,9 @@ body{
 
     }
     .banner-container,
-    .change-image-container{
+    .change-image-container,
+    .run-container,
+    .footer-container{
         flex-direction: column;
     }
 
@@ -304,6 +442,24 @@ body{
     align-items: center;
     gap: 40px;
     
+}
+
+.team-img-container{
+    grid-template-columns: 1fr;
+}
+
+.team-img{
+  margin: 0 auto;
+}
+.footer-text{
+    margin-bottom: 20px;
+}
+.footer-list,
+.foot-hr{
+    margin-left: 0;
+}
+.right{
+    text-align: start;
 }
 
 }

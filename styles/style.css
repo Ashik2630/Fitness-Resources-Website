@@ -348,12 +348,6 @@ body{
     mix-blend-mode: multiply;
 }
 
-
-
-
-
-
-
 /*  Team section styles*/
 .team{
     max-width: 1060px;
@@ -545,6 +539,20 @@ body{
     
 }
 
+.training-img-container{
+    grid-template-columns: repeat(2, 1fr);
+}
+.img-2{
+    grid-column: auto;
+}
+.img-4{
+    grid-column: auto;
+}
+
+.img-3,.img-6{
+    display: none;
+}
+
 .team-img-container{
     grid-template-columns: 1fr;
 }
@@ -564,3 +572,4 @@ body{
 }
 
 }
+
